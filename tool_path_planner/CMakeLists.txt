@@ -61,6 +61,7 @@ include_directories(
   include
   ${catkin_INCLUDE_DIRS}
   ${PCL_INCLUDE_DIRS}
+  /usr/local/include/vtk-7.1
 )
 
 add_library(${PROJECT_NAME}

@@ -165,11 +165,11 @@ protected:
               tf::poseEigenToMsg(p, pose);
               seg.poses.push_back(pose);
             }
-            if (smooth_pose_arrays_)
-            {
-              smooth_pose_traj::SmoothPoseTraj smoother(seg, pt_spacing, true);
-              smoother.process(seg);
-            }
+//            if (smooth_pose_arrays_)
+//            {
+//              smooth_pose_traj::SmoothPoseTraj smoother(seg, pt_spacing, true);
+//              smoother.process(seg);
+//            }
             tp.segments.push_back(seg);
           }
 
